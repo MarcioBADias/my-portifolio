@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <C.Nav>
             <C.Container>
-                <C.Title>Front-End</C.Title>
+                <C.Title>Front</C.Title>
             </C.Container>
             <C.Menu>
                 <C.MenuItem><C.Link>Inicio</C.Link></C.MenuItem>
