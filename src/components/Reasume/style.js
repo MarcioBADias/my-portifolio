@@ -7,10 +7,50 @@ export const Wrapper = styled.div`
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
+
+    ::before{
+        position: absolute;
+        content: '';
+        height: 600px;
+        width: 600px;
+        border-radius: 50%;
+        left: -12%;
+        top:40%;
+        background: linear-gradient(45deg, #000, #efc94c);
+        animation: object1 6s linear infinite;
+        z-index: 5;
+        }
+
+        ::after{
+        position: absolute;
+        content: '';
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        left: 45%;
+        top:20%;
+        background: linear-gradient(45deg, #000, #efc94c);
+        animation: object2 6s linear infinite;
+        }
+
+        @keyframes object1{
+            50%{
+                left: -13%;
+                top: 41%;
+            }
+        }
+
+        @keyframes object2{
+            50%{
+                left: 43%;
+                top: 18%;
+            }
+        }
 `;
 
 export const Container = styled.div`
     width: 50%;
+    z-index: 5;
 `;
 
 export const TopLine = styled.span`
