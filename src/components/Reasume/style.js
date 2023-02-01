@@ -106,3 +106,23 @@ export const Button = styled.button`
         color: #fff;
     }
 `;
+
+export const Img = styled.img`
+    position:relative;
+    height: 100%;
+    width: calc(130% - 80px);
+    top: 20px;
+    left: 100px;
+    animation: animateUser 4s linear infinite;
+
+    ::after{
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+    }
+    @keyframes animateUser{
+        50%{
+            right: 30px;
+        }
+    }
+`;

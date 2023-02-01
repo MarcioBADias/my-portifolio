@@ -1,4 +1,5 @@
 import React from "react";
+import ProfileArt from '../../assets/img/profile-image.svg';
 
 import * as C from './style';
 
@@ -12,6 +13,9 @@ const Resume = () => {
                 <C.Container>
                     <C.Button>Curriculo pdf</C.Button>
                 </C.Container>
+            </C.Container>
+            <C.Container>
+                <C.Img src={ProfileArt} alt='Imagem do Dev Marcio Dias' />
             </C.Container>
         </C.Wrapper>
     );
