@@ -7,13 +7,13 @@ const SelfWritten = () => {
     useEffect(() => {
         const options = {
             strings: [
-            'Fluente em Javascrip',
-            'React JS',
-            'Front-end'
+            'Front-end',
+            'JS Fluente',
+            'React JS'
         ],
             loop: true,
-            typeSpeed: 50,
-            backSpeed: 50,
+            typeSpeed: 100,
+            backSpeed: 80,
             backDelay: 1200
         };
    typed.current = new Typed(el.current, options);

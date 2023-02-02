@@ -7,6 +7,13 @@ export const Wrapper = styled.div`
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
+
+    @keyframes object1{
+        50%{
+            left: -13%;
+            top: 41%;
+        }
+    }
     ::before{
         position: absolute;
         content: '';
@@ -18,7 +25,22 @@ export const Wrapper = styled.div`
         background: linear-gradient(45deg, #000, #efc94c);
         animation: object1 6s linear infinite;
         z-index: 5;
+        
+        @media (max-width: 840px){
+            height: 400px;
+            width: 400px;
+            left: -30%;
+            top:55%;
+
+            @keyframes object1{
+            50%{
+                left: -28%; 
+                top: 50%;
+                }
+                }
+            }
         }
+
         ::after{
         position: absolute;
         content: '';
@@ -30,12 +52,7 @@ export const Wrapper = styled.div`
         background: linear-gradient(45deg, #000, #efc94c);
         animation: object2 6s linear infinite;
         }
-        @keyframes object1{
-            50%{
-                left: -13%;
-                top: 41%;
-            }
-        }
+        
         @keyframes object2{
             50%{
                 left: 43%;
@@ -45,8 +62,12 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-    width: 50%;
+    width: 60vw;
     z-index: 5;
+
+    @media (max-width: 840px){
+        width: 90vw;
+    }
 `;
 
 export const TopLine = styled.span`
@@ -57,17 +78,29 @@ export const TopLine = styled.span`
     font-weight: 800;
     letter-spacing: 3px;
     text-transform: uppercase;
+
+    @media (max-width: 840px){
+        font-size: 1.8rem;
+    }
 `;
 
 export const Title = styled.h1`
     display: block;
     font-size: 2rem;
+
+    @media (max-width: 840px){
+        font-size: 1.6rem;
+    }
 `;
 
 export const MultiText = styled.span`
     color: #efc94c;
     margin-left: .5rem;
     text-transform: capitalize;
+
+    @media (max-width: 840px){
+        font-size: 1.6rem;
+    }
 `;
 
 export const Text = styled.p`
@@ -91,6 +124,10 @@ export const Button = styled.button`
         background-color: #efc94c;
         color: #fff;
     }
+
+    @media (max-width: 840px){
+        margin: 2rem auto;
+    }
 `;
 
 export const Img = styled.img`
@@ -99,15 +136,8 @@ export const Img = styled.img`
     width: calc(130% - 80px);
     top: 20px;
     left: 100px;
-    animation: animateUser 4s linear infinite;
-    ::after{
-        background-color: #000;
-        height: 100%;
-        width: 100%;
-    }
-    @keyframes animateUser{
-        50%{
-            right: 30px;
-        }
+    
+    @media (max-width: 840px){
+        display:none;
     }
 `;

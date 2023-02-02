@@ -28,7 +28,7 @@ export const Menu = styled.ul`
 
 export const MenuItem = styled.li`
     list-style: none;
-    margin: 0 15px;
+    margin: 0 1rem;
 `;
 
 export const Link = styled.a`
