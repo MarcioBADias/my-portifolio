@@ -12,14 +12,9 @@ export const Nav = styled.nav`
 
 export const Container = styled.div``;
 
-export const Title = styled.h2`
-    color: #efc94c;
-    //scursor: pointer;
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: 800;
-    letter-spacing: 3px;
-    text-transform: uppercase;
+export const Img = styled.img`
+    
+    width: 80px;
 `;
 
 export const Menu = styled.ul`

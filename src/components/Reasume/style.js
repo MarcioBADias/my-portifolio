@@ -62,7 +62,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-    width: 60vw;
+    width: 40vw;
     z-index: 5;
 
     @media (max-width: 840px){
@@ -132,7 +132,7 @@ export const Button = styled.button`
 
 export const Img = styled.img`
     position:relative;
-    height: 100%;
+    height: 100vh;
     width: calc(130% - 80px);
     top: 20px;
     left: 100px;

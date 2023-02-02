@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from '../../assets/img/logo.svg';
 import {
     AiFillGithub,
     AiFillLinkedin
@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <C.Nav>
             <C.Container>
-                <C.Title>Front</C.Title>
+                <C.Img src={Logo} alt='Logo Marcius Code' />
             </C.Container>
             <C.Menu>
                 <C.MenuItem><C.Link>Inicio</C.Link></C.MenuItem>
