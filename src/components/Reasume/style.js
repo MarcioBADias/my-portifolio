@@ -7,7 +7,6 @@ export const Wrapper = styled.div`
     align-items: center;
     padding: 0 10%;
     overflow: hidden;
-
     ::before{
         position: absolute;
         content: '';
@@ -20,7 +19,6 @@ export const Wrapper = styled.div`
         animation: object1 6s linear infinite;
         z-index: 5;
         }
-
         ::after{
         position: absolute;
         content: '';
@@ -32,14 +30,12 @@ export const Wrapper = styled.div`
         background: linear-gradient(45deg, #000, #efc94c);
         animation: object2 6s linear infinite;
         }
-
         @keyframes object1{
             50%{
                 left: -13%;
                 top: 41%;
             }
         }
-
         @keyframes object2{
             50%{
                 left: 43%;
@@ -58,22 +54,14 @@ export const TopLine = styled.span`
     display: block;
     position: relative;
     font-size: 2rem;
-    letter-spacing: 5px;
-
-    /* ::after{
-        position: absolute;
-        content: '';
-        height: 4px;
-        width: 45px;
-        bottom: 10px;
-        background: #efc94c;
-    } */
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 `;
 
 export const Title = styled.h1`
     display: block;
     font-size: 2rem;
-
 `;
 
 export const MultiText = styled.span`
@@ -87,7 +75,6 @@ export const Text = styled.p`
     margin-top: .5rem;
     width: 90%;
     font-size: 1rem;
-
 `;
 
 export const Button = styled.button`
@@ -100,7 +87,6 @@ export const Button = styled.button`
     margin: 2rem .5rem;
     text-transform: capitalize;
     box-shadow: 0 10px 10px #efc94c;
-
     :hover{
         background-color: #efc94c;
         color: #fff;
@@ -114,7 +100,6 @@ export const Img = styled.img`
     top: 20px;
     left: 100px;
     animation: animateUser 4s linear infinite;
-
     ::after{
         background-color: #000;
         height: 100%;

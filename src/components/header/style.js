@@ -45,8 +45,8 @@ export const Link = styled.a`
     }
 
     svg{
-        height: 40px;
+        height: 20px;
         margin-top: 15px;
-        width: 40px;
+        width: 20px;
     }
 `;
