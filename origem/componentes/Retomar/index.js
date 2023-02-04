@@ -9,7 +9,7 @@ const Resume = () => {
             <C.Container>
                 <C.TopLine>Marcio Dias</C.TopLine>
                 <C.Title>Desenvolvedor<C.MultiText><SelfWritten /></C.MultiText></C.Title>
-                <C.Text>Apaixonado por desafios e sempre em busca de oportunidades de aprender, sou um profissional de personalidade dinâmica que se permite ser flexivel em situações mudadas e lido muito bem com pressão. Além disso sou paciente e compreensivo, o que me ajuda a trabalhar bem com pessoas de diferentes backgrounds e níveis de habilidades. Acima de tudo, sou um individuo de fácil aprendizado e sempre estou disposto a adquirir novos conhecimentos e habilidades.</C.Text>
+                <C.Text>Apaixonado por desafios e sempre em busca de novas oportunidades. Sou um profissional dinâmico e flexível, com facilidade para lidar com situações de mudança e pressão. Minha paciência e empatia facilitam meu trabalho em grupo, principalmente no trato com pessoas de  diferentes níveis de habilidade e backgrounds. Além disso, sou um indivíduo com facilidade de aprendizado, sempre disposto a adquirir novos conhecimentos e ampliar minhas habilidades.</C.Text>
                 <C.Container>
                     <C.Button>Curriculo pdf</C.Button>
                 </C.Container>
