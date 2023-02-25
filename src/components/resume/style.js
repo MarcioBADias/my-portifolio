@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
     top: 40%;
     background: linear-gradient(45deg, #000, #efc94c);
     animation: object1 6s linear infinite;
-    z-index: 5;
+    z-index: 0;
 
     @keyframes object1 {
       50% {
@@ -63,8 +63,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 40vw;
-  z-index: 1;
+  width: 60vw;
+  z-index: 5;
 
   @media (max-width: 840px) {
     width: 90vw;
@@ -87,7 +87,7 @@ export const TopLine = styled.span`
 
 export const Title = styled.h1`
   display: block;
-  font-size: 2rem;
+  font-size: 1.6rem;
 
   @media (max-width: 840px) {
     font-size: 1.6rem;
@@ -96,6 +96,7 @@ export const Title = styled.h1`
 
 export const MultiText = styled.span`
   color: #efc94c;
+  font-size: 1.6rem;
   margin-left: 0.5rem;
   text-transform: capitalize;
 
@@ -134,8 +135,8 @@ export const Button = styled.button`
 export const Img = styled.img`
     position:relative;
     height: 100vh;
-    width: calc(130% - 80px);
-    top: 20px;
+    width: 45vw;
+    top: -20px;
     left: 100px;
     
     @media (max-width: 840px){
