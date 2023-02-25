@@ -9,6 +9,10 @@ const Global = createGlobalStyle`
         padding: 0;
     }
 
+    :root {
+        --cor-primary: #FFCB46;
+    }
+
     body{
         background-color: #000;
         color: #fff;

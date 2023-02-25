@@ -1,5 +1,6 @@
 import Header from "./components/header/index";
 import Resume from "./components/resume";
+import Skills from "./components/skills";
 import Global from "./styles/global";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Resume />
+      <Skills />
       <Global />
     </>
   );
