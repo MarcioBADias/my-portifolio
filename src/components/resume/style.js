@@ -136,7 +136,7 @@ export const Img = styled.img`
     position:relative;
     height: 100vh;
     width: 45vw;
-    top: -20px;
+    top: 0px;
     left: 100px;
     
     @media (max-width: 840px){

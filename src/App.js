@@ -1,16 +1,13 @@
-import Header from "./components/header/index";
-import Resume from "./components/resume";
-import Skills from "./components/skills";
+import React from "react";
+import Home from "./pages/home";
 import Global from "./styles/global";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Resume />
-      <Skills />
+    <div>
+      <Home />
       <Global />
-    </>
+    </div>
   );
 }
 

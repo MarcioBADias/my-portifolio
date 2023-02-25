@@ -12,7 +12,7 @@ const Skills = () =>{
                 <C.SubTitle>
                     Soft-skills
                 </C.SubTitle>
-                <C.Img src={softSkills} alt="Soft skills"/>
+                <C.SoftSkills src={softSkills} alt="Soft skills"/>
             </C.Container>
             <C.Container>
                 <C.SubTitle>
