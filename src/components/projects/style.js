@@ -16,12 +16,13 @@ export const Section = styled.div`
 
 export const TextArea = styled.div`
     display: block;
-    margin: 0 2rem;
-    margin-top: -15rem;
+    margin: 0 3rem;
+    margin-top: -9rem;
     width: 30vw;
 
     @media (max-width: 840px){
         flex-direction: column;
+        margin-left: 3rem;
         margin-top: 1rem;
         width: 80%;
     }
@@ -46,6 +47,10 @@ export const Text = styled.p`
     display: block;
     font-weight: bold;
     width: 90%;
+
+    @media (max-width: 840px){
+        width: 100%;
+    }
 `;
 
 export const ProjectArea = styled.div`
@@ -61,11 +66,19 @@ export const ProjectArea = styled.div`
     }
 `;
 
-export const Img = styled.img`
+export const Link = styled.a`
     margin: 1rem;
     width: 40%;
 
     @media (max-width: 840px){
         width: 80%;
+    }
+`;
+
+export const Img = styled.img`
+    width: 100%;
+
+    @media (max-width: 840px){
+        width: 100%;
     }
 `;
