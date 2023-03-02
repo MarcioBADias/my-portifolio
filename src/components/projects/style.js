@@ -10,6 +10,7 @@ export const Section = styled.div`
 
     @media (max-width: 840px){
         flex-direction: column;
+        height: auto;
     }
 `;
 
@@ -21,7 +22,8 @@ export const TextArea = styled.div`
 
     @media (max-width: 840px){
         flex-direction: column;
-        width: 100%;
+        margin-top: 1rem;
+        width: 80%;
     }
 `;
 
@@ -30,15 +32,20 @@ export const Title = styled.h1`
     font-size:2rem;
     font-weight: bold;
     margin: 1rem 0;
-    text-align: center;
     text-transform: uppercase;
     width: 100%;
+
+    @media (max-width: 840px){
+        margin-top: 1.6rem;
+        width: 100%;
+    }
 `;
 
 export const Text = styled.p`
-    color: var(--cor-primary);
+    color: #efefef;
+    display: block;
     font-weight: bold;
-    width: 100%;
+    width: 90%;
 `;
 
 export const ProjectArea = styled.div`
@@ -47,7 +54,9 @@ export const ProjectArea = styled.div`
     width: 60vw;
 
     @media (max-width: 840px){
+        align-items: center;
         flex-direction: column;
+        margin-top: 1rem;
         width: 100%;
     }
 `;
@@ -55,4 +64,8 @@ export const ProjectArea = styled.div`
 export const Img = styled.img`
     margin: 1rem;
     width: 40%;
+
+    @media (max-width: 840px){
+        width: 80%;
+    }
 `;

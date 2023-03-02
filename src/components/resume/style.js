@@ -108,7 +108,7 @@ export const MultiText = styled.span`
 export const Text = styled.p`
   display: block;
   margin-top: 0.5rem;
-  width: 90%;
+  width: 80%;
   font-size: 1rem;
 `;
 
