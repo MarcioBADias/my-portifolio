@@ -22,7 +22,7 @@ const Projects = () =>{
                 <C.Link href="https://poke-rest-api.netlify.app/">
                     <C.Img src={project2} alt="Projetoem Vue" />
                 </C.Link>
-                <C.Link href="#https://controle-financeiro-pessoal-simples.netlify.app/">
+                <C.Link href="https://controle-financeiro-pessoal-simples.netlify.app/">
                     <C.Img src={project3} alt="Projeto React" />
                 </C.Link>
                 <C.Link href="https://memory-game-challenger-code.netlify.app/">
