@@ -16,10 +16,9 @@ export const Section = styled.div`
 
 export const Title = styled.h1`
     font-weight: bold;
-    justify-content: space-around;
     margin: 1rem 0;
     text-align: center;
-    width: 100vw;
+    width: 100%;
 `;
 
 export const Container = styled.div`
@@ -28,7 +27,8 @@ export const Container = styled.div`
     width: 40vw;
 
     @media (max-width: 840px){
-        width: 100%;
+        flex-direction: column;
+        width: 49vw;
     }
 `;
 
@@ -41,6 +41,10 @@ export const SubTitle = styled.h2`
 export const SoftSkills = styled.img`
     margin-left: -3rem;
     width: 100%;
+
+    @media (max-width: 840px){
+        margin:0;
+    }
 `;
 
 export const Img = styled.img`
