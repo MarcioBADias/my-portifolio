@@ -6,7 +6,7 @@ export const Section = styled.div`
     color: #000;
     display: flex;
     flex-wrap: wrap;
-    height: 110vh;
+    /* height: 110vh; */
     justify-content: space-around;
 
     @media (max-width: 840px){
@@ -28,7 +28,7 @@ export const Container = styled.div`
 
     @media (max-width: 840px){
         flex-direction: column;
-        width: 49vw;
+        width: 100%;
     }
 `;
 
@@ -43,7 +43,7 @@ export const SoftSkills = styled.img`
     width: 100%;
 
     @media (max-width: 840px){
-        margin:0;
+        margin:-1rem;
     }
 `;
 
