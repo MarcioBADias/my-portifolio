@@ -6,6 +6,7 @@ export const Section = styled.div`
     color: #000;
     display: flex;
     flex-wrap: wrap;
+    height: 110vh;
     justify-content: space-around;
 
     @media (max-width: 840px){
