@@ -4,7 +4,8 @@ import {
     AiFillGithub,
     AiFillLinkedin
 } from "react-icons/ai";
-import { RiWhatsappFill } from "react-icons/ri"
+import { RiWhatsappFill } from "react-icons/ri";
+import { CgMenuRound, CgCloseO } from "react-icons/cg";
 import * as C from './style'
 
 const Header = () => {
@@ -25,15 +26,30 @@ const Header = () => {
             </C.Menu>
 
             <C.Container>
-                <AiFillGithub/>
-                <AiFillLinkedin/>
-                <RiWhatsappFill/>
+                <C.SVG>
+                    <AiFillGithub/>
+                </C.SVG>
+                <C.SVG>
+                    <AiFillLinkedin/>
+                </C.SVG>
+                <C.SVG>
+                    <RiWhatsappFill/>
+                </C.SVG>
             </C.Container>
             
             <C.MenuButton onClick={() => setShowMenu(!showMenu)}>
-              <div />
-              <div />
-              <div />
+                <C.MenuIcon>
+                    {showMenu? <CgCloseO/>:
+                        <CgMenuRound>
+                        <C.Menu showMenu={showMenu}>
+                            <C.MenuItem><C.Link>Inicio</C.Link></C.MenuItem>
+                            <C.MenuItem><C.Link>Sobre</C.Link></C.MenuItem>
+                            <C.MenuItem><C.Link>Habilidades</C.Link></C.MenuItem>
+                            <C.MenuItem><C.Link>Projetos</C.Link></C.MenuItem>
+                            <C.MenuItem><C.Link>Contatos</C.Link></C.MenuItem>
+                        </C.Menu>
+                    </CgMenuRound>}
+                </C.MenuIcon>
             </C.MenuButton>
         </C.Nav>
     );
